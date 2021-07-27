@@ -2,9 +2,8 @@
   "encoding": "UTF-8",
   "headers": {
     "/*": {
-      "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/html; charset=UTF-8",
-      "X-Reply": "k.v.zhernakov"
+      "X-Author": "k.v.zhernakov",
+      "Access-Control-Allow-Origin": "*"
     },
     "/sample/*": {
       "Access-Control-Allow-Origin": "*",

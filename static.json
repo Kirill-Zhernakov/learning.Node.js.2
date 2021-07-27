@@ -2,18 +2,19 @@
   "encoding": "UTF-8",
   "headers": {
     "/*": {
-      "X-Author": "k.v.zhernakov",
-      "Access-Control-Allow-Origin": "*"
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/html; charset=UTF-8",
+      "X-Reply": "k.v.zhernakov"
+    },
+    "/sample/*": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "X-Reply": "k.v.zhernakov"
     },
     "/login/*": {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8",
-      "X-Author": "k.v.zhernakov"
-    },    
-    "/sample/*": {
-      "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain; charset=UTF-8",
-      "X-Author": "k.v.zhernakov"
-    }  
+      "X-Reply": "k.v.zhernakov"
+    }    
   }    
 }

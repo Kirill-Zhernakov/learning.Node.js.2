@@ -5,15 +5,15 @@
       "X-Author": "k.v.zhernakov",
       "Access-Control-Allow-Origin": "*"
     },
-    "/sample/*": {
-      "Access-Control-Allow-Origin": "*",
-      "Content-Type": "text/plain; charset=UTF-8",
-      "X-Author": "k.v.zhernakov"
-    },
     "/login/*": {
       "Access-Control-Allow-Origin": "*",
       "Content-Type": "text/plain; charset=UTF-8",
       "X-Author": "k.v.zhernakov"
-    }    
+    },    
+    "/sample/*": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "X-Author": "k.v.zhernakov"
+    }  
   }    
 }
